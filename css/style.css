@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0
+}
+img {
+  max-width: 100%
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.bg-img {
+  background-image: url(../images/front.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 660px;
+  background-color: #00000085;
+  background-blend-mode: color;
+  object-fit: cover;
+}
+
+.logo span {
+  font-size: 15px;
+  display: block;
+  font-weight: 100;
+}
+
+.nav-item {
+  padding: 10px 10px;
+  font-size: 18px;
+  
+}
+.nav-item a {
+  border: 2px solid #fff0;
+  border-radius: 30px;
+  font-weight: 700
+}
+.nav-item a:hover {
+  border: 2px solid #fff;
+}
+.nav-item:last-child a {
+  border: 2px solid #fff;
+}
+.headerset {
+  padding-top: 300px;
+  box-sizing: border-box;
+}
+.headerset h2{
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 300;
+
+}
+.headerset h1{
+  font-size: 80px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 10px 0;
+
+}
+.headerset span {
+  height: 2px;
+  width: 80px;
+  display: block;
+  background: #FB2056;
+  margin: 10px auto 0;
+
+}
+.learnmore {
+  border-radius: 30px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 10px 0;
+  background: #FB2056;
+
+}
+.learnmore:hover {
+ box-shadow: 0px 0px 9px white;
+}
+.upcomming-events {
+  padding: 70px 0px;
+  height: 750px
+  
+}
+.img-setting {
+  margin: 50px 0px 10px !important;
+  padding: 30px
+
+}
+.img-setting img {
+  width: 100%;
+  height: 300px;
+  box-shadow: 10px 10px 10px #8c8686;
+
+}
+.upcomming-events h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.upcomming-events span {
+  height: 2px;
+  width: 80px;
+  display: block;
+  background: #FB2056;
+  margin: 10px auto 0;
+}
+.text h2 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+}
+.text p {
+  font-size: 18px;
+  color: #5D7785;
+}
+.text a {
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  color: #FB2056;
+
+}
+.explore {
+  padding: 70px 0px;
+}
+.bg-img2 {
+  background-image: url(../images/fronta.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 500px;
+   background-color: #00000070;
+  background-blend-mode: color;
+  object-fit: cover;
+
+}
+
+.explore h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.explore p {
+  line-height: 1.7;
+  
+
+}
+.explore a {
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+.explore span {
+   height: 2px;
+  width: 80px;
+  display: block;
+  background: #FB2056;
+  
+}
+
+.content {
+  margin-left: 150px;
+}
+.tour {
+  padding: 70px 0;
+  
+}
+.post h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  
+}
+.post p {
+  color: #5D7785;
+  margin: 30px 0;
+}
+.post img {
+  margin-bottom: 20px;
+}
+.post span {
+   height: 2px;
+  width: 80px;
+  display: block;
+  background: #FB2056;
+}
+.post a {
+  border-radius: 30px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 10px 0;
+  background: #FB2056;
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300
+
+}
+.post img {
+  box-shadow: 10px 10px 10px #8c8686
+}
+.post a:hover {
+  background: #A8D0E9;
+}
+.small {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.large {
+  height: 450px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.bg {
+  background: #333;
+  color: #fff;
+  padding: 40px 0;
+}
